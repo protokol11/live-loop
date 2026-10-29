@@ -76,6 +76,15 @@ A pipeline for shipping a batch of specs in one session without losing control:
 3. Verify on a real artifact with eyes on the screen — a built window, a rendered frame, a served page — not on a status message.
 4. Run a violation pass that expects new findings and fixes them.
 
+## Quick start
+
+```sh
+git clone https://github.com/protokol11/live-loop.git
+cp -r live-loop/live-loop live-loop/monster-longrun ~/.agents/skills/
+```
+
+In pi: `/skill:live-loop` runs the pass/fail loop. Details below.
+
 ## Install
 
 Prerequisites: None beyond an agent that reads `SKILL.md`.
